@@ -1,0 +1,11 @@
+C:\Users\HP\Desktop\ооп\Zamki\locks\locks\bin\Debug\locks.exe.config
+C:\Users\HP\Desktop\ооп\Zamki\locks\locks\bin\Debug\locks.exe
+C:\Users\HP\Desktop\ооп\Zamki\locks\locks\bin\Debug\locks.pdb
+C:\Users\HP\Desktop\ооп\Zamki\locks\locks\obj\Debug\locks.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\ооп\Zamki\locks\locks\obj\Debug\locks.Form1.resources
+C:\Users\HP\Desktop\ооп\Zamki\locks\locks\obj\Debug\locks.Properties.Resources.resources
+C:\Users\HP\Desktop\ооп\Zamki\locks\locks\obj\Debug\locks.csproj.GenerateResource.Cache
+C:\Users\HP\Desktop\ооп\Zamki\locks\locks\obj\Debug\locks.exe
+C:\Users\HP\Desktop\ооп\Zamki\locks\locks\obj\Debug\locks.pdb
+C:\Users\HP\Desktop\ооп\Zamki\locks\locks\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\ооп\Zamki\locks\locks\bin\Debug\Newtonsoft.Json.xml
