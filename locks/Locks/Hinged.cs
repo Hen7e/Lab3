@@ -20,15 +20,15 @@ namespace locks
             set { typeOfKernel = value; }
         }
 
-        public Hinged(string lockModel,string lockTypeOfKernel, string lockLength, string lockWeight, string lockDepth, string lockTypeOfMaterial, string lockPredistination, string lockTypeOfLock) :
+        public Hinged(string lockModel, string lockTypeOfKernel, string lockLength, string lockWeight, string lockDepth, string lockTypeOfMaterial, string lockPredistination, string lockTypeOfLock) :
         base(lockModel, lockLength, lockWeight, lockDepth, lockTypeOfMaterial, lockPredistination, lockTypeOfLock)
         {
             typeOfKernel = lockTypeOfKernel;
         }
-
+        
         public override object Clone()
         {
-            return new Hinged();
+            return new Hinged(lockModel, lockTypeOfKernel, lockLength, lockWeight, lockDepth, lockTypeOfMaterial, lockPredistination, lockTypeOfLock);
         }
     }
 }

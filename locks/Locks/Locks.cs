@@ -65,6 +65,7 @@ namespace locks
             get { return predestination; }
             set { predestination = value; }
         }
+        
         public Locks(string lockModel, string lockLength, string lockWeight, string lockDepth, string lockTypeOfMaterial, string lockPredistination, string lockTypeOfLock )
         {
             model = lockModel;
@@ -75,7 +76,6 @@ namespace locks
             predestination = lockPredistination;
             typeOfLock = lockTypeOfLock;
         }
-        
         public abstract object Clone();
     }
 }

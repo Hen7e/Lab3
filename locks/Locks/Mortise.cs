@@ -29,7 +29,8 @@ namespace locks
 
         public override object Clone()
         {
-            return new Mortise();
+            return new Mortise(lockModel, lockTypeOfLocking, lockLength, lockWeight, lockDepth, lockTypeOfMaterial, lockPredistination, lockTypeOfLock);
         }
+
     }
 }

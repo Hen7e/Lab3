@@ -28,7 +28,7 @@ namespace locks
 
         public override object Clone()
         {
-            return new Overhead();
+            return new Overhead(lockModel, lockTypeOfMechanizm, lockLength, lockWeight, lockDepth, lockTypeOfMaterial, lockPredistination, lockTypeOfLock);
         }
     }
 }

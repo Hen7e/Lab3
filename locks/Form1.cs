@@ -224,7 +224,7 @@ namespace locks
                 dataGridView1.Columns[5].HeaderCell.Value = "Предназначение";
                 dataGridView1.Columns[5].Width = 100;
                 dataGridView1.Columns[6].HeaderCell.Value = "Отличительное свойство";
-                dataGridView1.Columns[6].Width = 100;
+                dataGridView1.Columns[6].Width = 200;
                 for (int i = 0; i < dataGridView1.RowCount; i++)
                 {
                     dataGridView1.Rows[i].Cells[0].Value = locks[i].lockModel;
@@ -314,23 +314,23 @@ namespace locks
             {
                 number = Convert.ToInt32(textBox5.Text)-1;
                 string temp;
-                //temp = dataGridView1.CurrentCell.Value.ToString();
                 tempLocks[number].lockModel = dataGridView1.Rows[number].Cells[0].Value.ToString();
                 tempLocks[number].lockLength = dataGridView1.Rows[number].Cells[1].Value.ToString();
                 tempLocks[number].lockWeight = dataGridView1.Rows[number].Cells[2].Value.ToString();
-                //temp= dataGridView1.Rows[number].Cells[2].Value.ToString();
                 tempLocks[number].lockDepth = dataGridView1.Rows[number].Cells[3].Value.ToString();
                 tempLocks[number].lockTypeOfMaterial = dataGridView1.Rows[number].Cells[4].Value.ToString();
                 tempLocks[number].lockPredistination = dataGridView1.Rows[number].Cells[5].Value.ToString();
-                //tempLocks[number].lockModel = dataGridView1.Rows[number].Cells[6].Value.ToString();
-                //label11.Text = temp;
-
                 locks = tempLocks;
             }
             else
             {
                 MessageBox.Show("Выберите строку элемента");
             }
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Clear();
         }
     }
 }

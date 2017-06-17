@@ -61,6 +61,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -326,7 +327,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(316, 264);
+            this.button7.Location = new System.Drawing.Point(304, 264);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(154, 40);
             this.button7.TabIndex = 28;
@@ -336,7 +337,7 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(486, 264);
+            this.button8.Location = new System.Drawing.Point(464, 264);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(154, 40);
             this.button8.TabIndex = 29;
@@ -400,11 +401,22 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(624, 264);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(93, 40);
+            this.button9.TabIndex = 36;
+            this.button9.Text = "Очистить";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(838, 529);
+            this.Controls.Add(this.button9);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label11);
@@ -479,6 +491,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button9;
     }
 }
 

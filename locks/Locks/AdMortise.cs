@@ -17,6 +17,10 @@ namespace locks
             lockTypeOfLocking = "Однозапорный замок";
         }
 
+        public override object Clone()
+        {
+            return new AdMortise(lockModel, lockTypeOfLocking, lockLength, lockWeight, lockDepth, lockTypeOfMaterial, lockPredistination, lockTypeOfLock);
+        }
 
     }
 }
